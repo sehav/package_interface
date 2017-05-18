@@ -22,6 +22,7 @@ interface PackageInterface
 	static public function description();
 
 	/**
+	 * @param array $params
 	 * @return string
 	 */
 	static public function process(array $params);
