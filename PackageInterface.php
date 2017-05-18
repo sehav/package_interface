@@ -24,5 +24,5 @@ interface PackageInterface
 	/**
 	 * @return string
 	 */
-	static public function process();
+	static public function process(array $params);
 }
