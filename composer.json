@@ -14,6 +14,6 @@
       "sehav\\package_interface\\": "./"
     }
   },
-  "minimum-stability": "stable",
+  "minimum-stability": "dev",
   "require": {}
 }
