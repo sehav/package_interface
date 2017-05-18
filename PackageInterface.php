@@ -12,17 +12,17 @@ interface PackageInterface
 {
 	/**
 	 * @param array $argv
-	 * @return mixed
+	 * @return string
 	 */
-	public function run(array $argv);
+	static public function run(array $argv);
 
 	/**
-	 * @return mixed
+	 * @return string
 	 */
-	public function description();
+	static public function description();
 
 	/**
-	 * @return mixed
+	 * @return string
 	 */
-	public function process();
+	static public function process();
 }
