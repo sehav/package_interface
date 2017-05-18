@@ -1,0 +1,19 @@
+{
+  "name": "sehav/package_interface",
+  "description": "Package interface for creating VoxImplant custom packages",
+  "type": "library",
+  "license": "Open",
+  "authors": [
+    {
+      "name": "Timur",
+      "email": "sharafutdinov@zingaya.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "sehav\\package_interface\\": "./"
+    }
+  },
+  "minimum-stability": "stable",
+  "require": {}
+}
