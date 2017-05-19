@@ -11,19 +11,13 @@ namespace sehav\package_interface;
 interface PackageInterface
 {
 	/**
-	 * @param array $argv
-	 * @return string
-	 */
-	static public function run(array $argv);
-
-	/**
-	 * @return string
+	 * @return array
 	 */
 	static public function description();
 
 	/**
 	 * @param array $params
-	 * @return string
+	 * @return array
 	 */
 	static public function process(array $params);
 }
