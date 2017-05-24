@@ -13,11 +13,11 @@ interface PackageInterface
 	/**
 	 * @return array
 	 */
-	static public function description();
+	public function description();
 
 	/**
 	 * @param array $params
 	 * @return array
 	 */
-	static public function process(array $params);
+	public function process(array $params);
 }
